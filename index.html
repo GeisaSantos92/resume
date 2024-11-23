@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <title>Portfólio</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+    <header class="mb-8 py-4">
+        <nav class="text-gray-900">
+            <div class="container mx-auto flex items-center justify-between py-4 px-6">
+                <!-- Logo -->
+                <div class="text-2xl font-bold">
+                    <a href="#" class="flex items-center gap-2 text-gray-900 leading-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                            <path fill="#ea580c" d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z">
+                            </path>
+                        </svg>
+                        Geisa Santos
+                    </a>
+                    <span class="text-sm font-light text-gray-600 ml-10">Web Developer</span>
+                </div>
+
+                <!-- Hamburger Menu -->
+                <button id="menuButton" class="md:hidden text-gray-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 5.25h16.5M3.75 12h16.5M3.75 18.75h16.5"></path>
+                    </svg>
+                </button>
+
+                <!-- Menu -->
+                <ul id="mobileMenu"
+                    class="p-4 hidden absolute  left-0 w-full md:flex md:relative md:top-auto md:w-auto md:space-x-6 md:block">
+                    <li><a href="./cv.pdf" target="_blank" class="block py-2 px-4 hover:text-orange-600"
+                            download>Resume</a></li>
+                    <li><a href="#portfolio" class="block py-2 px-4 hover:text-orange-600">Portfolio</a></li>
+                    <li><a href="https://wa.me/5534992555395" target="_blank"
+                            class="max-w-fit block py-2 px-4 bg-amber-400 text-white rounded-full hover:bg-amber-300">Touch
+                            me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about-me py-8 px-2 ">
+            <div class="container mx-auto cols grid grid-cols-1 md:grid-cols-2 gap-8 p-4">
+                <div class="column-left">
+                    <h1 class="title-page text-8xl  font-bold text-gray-900">Hello, <br> I'm Geisa!</h1>
+                    <p class="mt-8 text-gray-700">
+                        I'm Geisa, and I'm so happy you're here! I'm a web developer based in Brazil. I love writing
+                        code that helps companies and people create their products and get their ideas off the ground. I
+                        also love creating websites that bring results, capturing new leads, increasing the number of
+                        customers and sales, and having a positive impact on the business. If you want to put any ideas
+                        into practice or talk about any ideas you have, please feel free to get in touch. I'd love to
+                        hear from you!
+                    </p>
+                    <div class="btns flex gap-2">
+                        <a class="bg-orange-600 hover:bg-orange-500 block mt-6 text-white max-w-fit py-2 px-4 rounded-full"
+                            href="https://www.linkedin.com/in/geisa-santos-93568a249" target="_blank">
+                            Linkedin
+                        </a>
+                        <a class="bg-orange-600 hover:bg-orange-500 block mt-6 text-white max-w-fit py-2 px-4 rounded-full"
+                            href="mailto:geisa.santos92@icloud.com" target="_blank">
+                            Email
+                        </a>
+                        <a class="bg-orange-600 hover:bg-orange-500 block mt-6 text-white max-w-fit py-2 px-4 rounded-full"
+                            href="https://wa.me/5534992555395" target="_blank">
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="column-right mx-auto">
+                    <div>
+                        <svg class="avatar" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" x="0" y="0"
+                            viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                            <g>
+                                <g data-name="04-Smiling">
+                                    <path
+                                        d="M51 57.71V61a18.874 18.874 0 0 1-8.47 2H21.47A18.874 18.874 0 0 1 13 61v-3.29a4.005 4.005 0 0 1 1.03-2.69 4.289 4.289 0 0 1 1.48-1.03l11.23-4.49a2.013 2.013 0 0 0 1.23-1.51L28 48c0 1.66 1.6 3 4 3s4-1.34 4-3l.03-.01a2.013 2.013 0 0 0 1.23 1.51l11.23 4.49a4.289 4.289 0 0 1 1.48 1.03A4.005 4.005 0 0 1 51 57.71Z"
+                                        style="" fill="#050505" data-original="#fdadc8" class="" opacity="1"></path>
+                                    <path
+                                        d="M50 28v1c0 2.76-2.24 6-5 6h-1l-.03-.02a22.28 22.28 0 0 0 2.93-8.99l.1.01h1a2.006 2.006 0 0 1 2 2Z"
+                                        style="" fill="#faa68e" data-original="#faa68e" class=""></path>
+                                    <path
+                                        d="M50 29v26l-.03.02a4.289 4.289 0 0 0-1.48-1.03L37.26 49.5a2.013 2.013 0 0 1-1.23-1.51 1.87 1.87 0 0 1-.03-.34v-5.42a16.493 16.493 0 0 0 7.97-7.25L44 35h1c2.76 0 5-3.24 5-6ZM50 18v10a2.006 2.006 0 0 0-2-2h-1l-.1-.01A18.942 18.942 0 0 0 47 24c0-6.63-6-6-8-12 0 5.53-11.5 9-22 9v3a18.942 18.942 0 0 0 .1 1.99L17 26h-1a2.006 2.006 0 0 0-2 2V18c0-9.39 8.06-17 18-17a18.483 18.483 0 0 1 12.73 4.98A16.509 16.509 0 0 1 50 18Z"
+                                        style="" fill="#a65d4e" data-original="#a65d4e" class=""></path>
+                                    <path
+                                        d="M36.03 47.99 36 48c0 1.66-1.6 3-4 3s-4-1.34-4-3l-.03-.01a1.87 1.87 0 0 0 .03-.34v-5.42a10.775 10.775 0 0 0 8 0v5.42a1.87 1.87 0 0 0 .03.34Z"
+                                        style="" fill="#ffcdbe" data-original="#ffcdbe"></path>
+                                    <path
+                                        d="M28 42.23v5.42a1.87 1.87 0 0 1-.03.34 2.013 2.013 0 0 1-1.23 1.51l-11.23 4.49a4.289 4.289 0 0 0-1.48 1.03L14 55V29c0 2.76 2.24 6 5 6h1l.03-.02A16.493 16.493 0 0 0 28 42.23Z"
+                                        style="" fill="#a65d4e" data-original="#a65d4e" class=""></path>
+                                    <path
+                                        d="M39 12c0 5.53-11.5 9-22 9v3a18.942 18.942 0 0 0 .1 1.99 22.28 22.28 0 0 0 2.93 8.99A16.493 16.493 0 0 0 28 42.23a10.775 10.775 0 0 0 8 0 16.493 16.493 0 0 0 7.97-7.25 22.28 22.28 0 0 0 2.93-8.99A18.942 18.942 0 0 0 47 24c0-6.63-6-6-8-12Z"
+                                        style="" fill="#ffcebf" data-original="#ffcebf"></path>
+                                    <path
+                                        d="M20.03 34.98 20 35h-1c-2.76 0-5-3.24-5-6v-1a2.006 2.006 0 0 1 2-2h1l.1-.01a22.28 22.28 0 0 0 2.93 8.99ZM39 12c0 5.53-11.5 9-22 9v3c10.5 0 22-3.47 22-9 1.866 5.6 7.207 5.43 7.917 10.762.054-.586.083-1.178.083-1.762 0-6.63-6-6-8-12ZM31 49v-2a2 2 0 0 1 2-2h3v-2.77a10.775 10.775 0 0 1-8 0v5.42a1.87 1.87 0 0 1-.03.34L28 48c0 1.66 1.6 3 4 3a5.931 5.931 0 0 0 .593-.042A2 2 0 0 1 31 49Z"
+                                        style="" fill="#faa68e" data-original="#faa68e" class=""></path>
+                                    <path
+                                        d="M20.03 34.98 20 35h-1a3.883 3.883 0 0 1-2-.585v18.979l9.74-3.894a2.013 2.013 0 0 0 1.23-1.51 1.87 1.87 0 0 0 .03-.34v-5.42a16.493 16.493 0 0 1-7.97-7.25ZM43.97 34.98 44 35h1a3.883 3.883 0 0 0 2-.585v18.979L37.26 49.5a2.013 2.013 0 0 1-1.23-1.51 1.87 1.87 0 0 1-.03-.34v-5.42a16.493 16.493 0 0 0 7.97-7.25Z"
+                                        style="" fill="#784132" data-original="#784132"></path>
+                                    <path
+                                        d="M48.545 59.864a4.59 4.59 0 0 1-1.107.136H24.3a4.3 4.3 0 0 1-4.3-4.3v-3.5L15.51 54A4.015 4.015 0 0 0 13 57.71V61a18.874 18.874 0 0 0 8.47 2h21.06A18.874 18.874 0 0 0 51 61v-2.718a4.551 4.551 0 0 1-2.455 1.582Z"
+                                        style="" fill="#050505" data-original="#d88caa" class="" opacity="1"></path>
+                                    <path
+                                        d="M28.407 8.805A21.423 21.423 0 0 0 31.8 11h.2c7 0 11.679-1.256 14.322-3.265A17.5 17.5 0 0 0 44.73 5.98c-.115-.109-.244-.205-.363-.311C41.6 7.7 37.819 9 32 9a32.386 32.386 0 0 1-3.593-.195Z"
+                                        style="" fill="#c38778" data-original="#c38778" class=""></path>
+                                    <path
+                                        d="M28.407 8.805A32.386 32.386 0 0 0 32 9c5.819 0 9.6-1.3 12.367-3.331A18.485 18.485 0 0 0 32 1a18.769 18.769 0 0 0-7.8 1.7 11.191 11.191 0 0 0 4.207 6.105ZM28.407 8.805a17.641 17.641 0 0 1-8.774-3.136 17.337 17.337 0 0 0-1.956 2.065C20.293 9.724 24.912 10.972 31.8 11a21.423 21.423 0 0 1-3.393-2.195ZM49.7 15c-.06-.316-.131-.629-.209-.938-.02-.08-.043-.159-.064-.238A16.3 16.3 0 0 0 48.9 12.2l-.085-.219a16.5 16.5 0 0 0-1.325-2.6l-.007-.011a17.2 17.2 0 0 0-1.16-1.63C43.679 9.744 39 11 32 11h-.2a32.274 32.274 0 0 0 6.871 2.589A4.038 4.038 0 0 0 39 12a9.193 9.193 0 0 0 .881 1.9A45.761 45.761 0 0 0 49.7 15Z"
+                                        style="" fill="#b46e5a" data-original="#b46e5a" class=""></path>
+                                    <path d="M27 34h10s-1 4-5 4-5-4-5-4Z" style="" fill="#ff808c"
+                                        data-original="#ff808c" class=""></path>
+                                    <ellipse cx="32" cy="36.5" rx="3.57" ry="1.5" style="" fill="#f25a6b"
+                                        data-original="#f25a6b" class=""></ellipse>
+                                    <path
+                                        d="M51 54.719V18c0-9.925-8.523-18-19-18S13 8.075 13 18v36.719a4.977 4.977 0 0 0-1 2.989V61a1 1 0 0 0 .553.9 20.051 20.051 0 0 0 8.919 2.1h21.056a20.051 20.051 0 0 0 8.919-2.1A1 1 0 0 0 52 61v-3.292a4.977 4.977 0 0 0-1-2.989Zm-2-1.583c-.049-.022-.093-.05-.144-.071l-11.227-4.49a1 1 0 0 1-.629-.929v-4.741A17.592 17.592 0 0 0 44.483 36H45a5.435 5.435 0 0 0 4-1.98ZM35.026 48H35c0 1.159-1.262 2-3 2s-3-.841-3-2h-.026a3.188 3.188 0 0 0 .026-.354v-4.038a11.676 11.676 0 0 0 6 0v4.038a3.188 3.188 0 0 0 .026.354ZM15 28a1 1 0 0 1 1-1h.226a23.723 23.723 0 0 0 2.143 6.915C16.5 33.451 15 31.027 15 29Zm3-4v-2.01c9.237-.179 18.5-2.826 21.209-7.276a14.675 14.675 0 0 0 3.378 3.4C44.494 19.629 46 20.828 46 24c0 10.3-7.392 18-14 18s-14-7.7-14-18Zm29.774 3H48a1 1 0 0 1 1 1v1c0 2.027-1.5 4.451-3.369 4.915A23.723 23.723 0 0 0 47.774 27ZM32 2c9.374 0 17 7.178 17 16v7.184A2.966 2.966 0 0 0 48 25h-.027c.016-.334.027-.668.027-1 0-4.136-2.119-5.822-4.168-7.453-1.583-1.26-3.079-2.45-3.884-4.863A1 1 0 0 0 38 12c0 4.262-9.813 8-21 8a1 1 0 0 0-1 1v3c0 .332.011.666.027 1H16a2.966 2.966 0 0 0-1 .184V18c0-8.822 7.626-16 17-16ZM19 36h.517A17.592 17.592 0 0 0 27 42.905v4.741a1 1 0 0 1-.628.928l-11.228 4.491c-.051.021-.1.049-.144.071V34.02A5.435 5.435 0 0 0 19 36Zm31 24.37A18.043 18.043 0 0 1 42.528 62H21.472A18.043 18.043 0 0 1 14 60.37v-2.662a2.984 2.984 0 0 1 1.886-2.785l11.229-4.492a3.019 3.019 0 0 0 .6-.334A5.242 5.242 0 0 0 32 52a5.242 5.242 0 0 0 4.282-1.9 3.053 3.053 0 0 0 .6.335l11.228 4.491A2.984 2.984 0 0 1 50 57.708Z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="M37 33H27a1 1 0 0 0-.97 1.243 6.125 6.125 0 0 0 11.94 0A1 1 0 0 0 37 33Zm-5 4a3.941 3.941 0 0 1-3.476-2h6.952A3.941 3.941 0 0 1 32 37ZM39 26c1.383 0 2 .617 2 2h2a3.675 3.675 0 0 0-4-4 4 4 0 0 0-4 4h2a2 2 0 0 1 2-2ZM27 28h2a4 4 0 0 0-4-4 3.675 3.675 0 0 0-4 4h2c0-1.383.617-2 2-2a2 2 0 0 1 2 2Z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work bg-lime-900 text-white px-2" id="portfolio">
+            <div class="container py-12  mx-auto cols grid grid-cols-1 md:grid-cols-2 gap-9 px-0">
+                <div class="column-left">
+                    <h3 class="text-amber-400 font-bold text-4xl mb-6 ">Some of Projects I Worked</h3>
+                    <div class="box-work flex justify-between ">
+                        <div>
+                            <h4 class="font-bold text-1xl my-4">Wordpress</h4>
+                            <a href="https://dentistasdotrabalhador.com.br/" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Dentista do Trabalhador
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="https://tiagocoutopsiquiatra.com.br/" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Tiago Couto Psiquiatra
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="https://tema-v1.grupor8.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Template Theme 1
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://tema-v2.grupor8.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Template Theme 2
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://tema-v3.grupor8.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Template Theme 3
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://elload.com.br/" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Ello Ad
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://grupoarcis.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Grupo Arcis
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://projetos.grupoarcis.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Projetos Grupo Arcis
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://construcoes.grupoarcis.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Contruções Grupo Arcis
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://imoveis.grupoarcis.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Imóveis Grupo Arcis
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-1xl my-6">Tray E-commerce </h4>
+                            <a href="https://www.amarebeachware.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Amare Beach Wear
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+
+                            <a href="https://www.luftsecurity.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Luft Security
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="https://www.dinizmedicamentos.com.br" target="_blank"
+                                class="font-base flex gap-1 items-center mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#ea580c"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                Diniz Medicamentos
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                    aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-right ml-8">
+                    <h3 class="text-amber-400 font-bold text-4xl mb-6">Tecnical Skills</h3>
+                    <div class="skills ">
+                        <h4 class="font-bold text-1xl my-4">Software Skills</h4>
+                        <div class="flex flex-wrap  gap-2">
+                            <span
+                                class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Wordpress</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">PHP</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Laravel</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Twig</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Filament</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">HTML</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">CSS</span>
+                            <span
+                                class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Javascript</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Jquery</span>
+                            <span
+                                class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Bootstrap</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Materialize
+                                Css</span>
+                            <span
+                                class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">TailwindCss</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">Swiper
+                                JS</span>
+                            <span class="bg-white rounded-full py-2 px-4 text-gray-900 text-center mb-2">AOS JS</span>
+                        </div>
+                        <h4 class="font-bold text-1xl  soft">Soft Skills</h4>
+                        <div class="flex gap-2 flex-wrap ">
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Communication</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Problem-solving</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Time management</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Adaptability</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Teamwork</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Leadership</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Creativity</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Emotional intelligence</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Conflict resolution</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Critical thinking</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Active listening</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Collaboration</span>
+                            <span class="bg-gray-900 rounded-md text-white py-2 px-4">Project management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experience relative py-8 px-2">
+            <div class="container mx-auto cols grid grid-cols-1 md:grid-cols-2 gap-8 p-4">
+                <div class="column-left">
+                    <div class="bg-amber-400 p-6 box-experience rounded-md">
+                        <h3 class="font-bold text-3xl  my-4 text-gray-900">Experience</h3>
+                        <div class="flex gap-6 align-center experience-txt">
+                            <div class="flex align-center gap-1 font-bold  text-gray-900 text-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0"
+                                    viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <path fill="#fff"
+                                            d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z"
+                                            opacity="1" data-original="#000000"></path>
+                                    </g>
+                                </svg>
+                                2022
+                            </div>
+
+                            <div>
+                                <span class="text-gray-700 font-medium mb-2 block">Web Devoloper</span>
+                                <p class="text-gray-900">
+                                    I specialize in developing custom WordPress websites using ACF or CMB2. I also
+                                    provide
+                                    ongoing maintenance and support for these websites. Additionally, I create custom
+                                    e-commerce websites using Twig on platforms like Tray and Nuvemshop.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold text-3xl  my-4 text-gray-900">Languages</h3>
+                    <div class="flex align-center my-8 languages-txt">
+                        <div class="flex flex-col languages ">
+                            <h4 class="text-gray-900 font-bold">English</h4>
+                            <span class="text-gray-800">Intermediate</span>
+                        </div>
+                        <div class="flex flex-col languages">
+                            <h4 class="text-gray-900 font-bold">French</h4>
+                            <span class="text-gray-800">Advanced</span>
+                        </div>
+                        <div class="flex flex-col languages">
+                            <h4 class="text-gray-900 font-bold">Portuguese</h4>
+                            <span class="text-gray-800">Fluent</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="build bg-lime-900 pt-8 px-2 ">
+            <div class="container mx-auto py-8">
+                <h2 class="build-text text-center text-7xl text-amber-400 font-bold">Let's build something great!</h2>
+                <p class="text-center text-3xl mt-8 text-white font-light">Let me help you create your amazing product
+                </p>
+                <div class="text-center flex align-center justify-center mt-8">
+                    <a href="https://wa.me/5534992555395" target="_blank"
+                        class="text-white  bg-orange-600 rounded-full block max-w-fit py-2 px-4 hover:bg-orange-500">LETS
+                        DO IT!</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-gray-900 py-6 ">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2024 Geisa. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
